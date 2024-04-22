@@ -41,8 +41,11 @@ namespace Dypsloom.RhythmTimeline.Scoring
         [SerializeField] protected TMPro.TextMeshProUGUI m_ChainTmp;
         [Tooltip("The rank slider.")]
         [SerializeField] protected RankSlider m_RankSlider;
+        [SerializeField] protected HyperChanger Slider;
         [Tooltip("(Optional) the spawn point for the accuracy pop ups.")]
         [SerializeField] protected Transform m_AccuracySpawnPoint;
+
+
     
         protected RhythmTimelineAsset m_CurrentSong;
         protected float m_CurrentScore;
@@ -406,6 +409,19 @@ namespace Dypsloom.RhythmTimeline.Scoring
                 } else {
                     var percentage =  GetScorePercentage();
                     m_RankSlider.SetRank(percentage, m_ScoreSettings.GetRank(percentage));
+                }
+            }
+
+            if (Slider != null)
+            {
+                if (m_CurrentSong == null)
+                {
+                    Slider.SetRank(0, m_ScoreSettings.GetRank(0));
+                }
+                else
+                {
+                    var percentage = GetScorePercentage();
+                    Slider.SetRank(percentage, m_ScoreSettings.GetRank(percentage));
                 }
             }
         }

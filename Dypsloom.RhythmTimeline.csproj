@@ -102,6 +102,7 @@
     <Compile Include="Assets\Dypsloom\RhythmTimeline\Scripts\UI\AccuracyPopUp.cs" />
     <Compile Include="Assets\Dypsloom\RhythmTimeline\Scripts\Core\Notes\RhythmClipEditorSettings.cs" />
     <Compile Include="Assets\Dypsloom\RhythmTimeline\Scripts\Core\Notes\NoteDefinition.cs" />
+    <Compile Include="Assets\Dypsloom\RhythmTimeline\Scripts\Scoring\HyperChanger.cs" />
     <Compile Include="Assets\Dypsloom\RhythmTimeline\Scripts\Core\Input\RhythmStandardInput.cs" />
     <Compile Include="Assets\Dypsloom\RhythmTimeline\Scripts\Core\Notes\CatchNote.cs" />
   </ItemGroup>

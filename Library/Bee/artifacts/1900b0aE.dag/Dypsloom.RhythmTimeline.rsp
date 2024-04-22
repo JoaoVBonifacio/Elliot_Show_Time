@@ -375,6 +375,7 @@
 "Assets/Dypsloom/RhythmTimeline/Scripts/EventReceivers/SongEventReceiver.cs"
 "Assets/Dypsloom/RhythmTimeline/Scripts/EventReceivers/TrackInputEventReceiver.cs"
 "Assets/Dypsloom/RhythmTimeline/Scripts/EventReceivers/TrackNoteEventReceiver.cs"
+"Assets/Dypsloom/RhythmTimeline/Scripts/Scoring/HyperChanger.cs"
 "Assets/Dypsloom/RhythmTimeline/Scripts/Scoring/NoteCounter.cs"
 "Assets/Dypsloom/RhythmTimeline/Scripts/Scoring/PopUp.cs"
 "Assets/Dypsloom/RhythmTimeline/Scripts/Scoring/SaveManager.cs"
