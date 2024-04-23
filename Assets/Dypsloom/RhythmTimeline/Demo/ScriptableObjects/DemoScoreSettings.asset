@@ -78,7 +78,7 @@ MonoBehaviour:
     miss: 1
     breakChain: 1
     percentageTheshold: 0
-    score: 0
+    score: -400
     hitBonusValue: 0
     hitBonus: 0
     hitPunishment: 0
