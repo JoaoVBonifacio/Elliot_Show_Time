@@ -507,8 +507,8 @@
     "m_Color": {
         "color": {
             "r": 0.0,
-            "g": 0.4941176474094391,
-            "b": 0.800000011920929,
+            "g": 0.13843165338039399,
+            "b": 0.5028865933418274,
             "a": 1.0
         },
         "mode": 1
@@ -991,7 +991,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "X",
     "m_StageCapability": 3,
-    "m_Value": 2.0,
+    "m_Value": 1.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
@@ -2003,7 +2003,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Y",
     "m_StageCapability": 3,
-    "m_Value": -5.0,
+    "m_Value": -1.0,
     "m_DefaultValue": 0.0,
     "m_Labels": [
         "Y"

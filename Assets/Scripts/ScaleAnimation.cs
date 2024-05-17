@@ -11,7 +11,7 @@ public class ScaleAnimation : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     public float scaledSize;
     public float transitionSpeed;
 
-    RectTransform _rectTransform;
+    public RectTransform _rectTransform;
 
     // Start is called before the first frame update
     void Start()
