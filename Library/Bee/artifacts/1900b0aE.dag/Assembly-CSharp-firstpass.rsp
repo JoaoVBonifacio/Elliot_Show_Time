@@ -121,7 +121,9 @@
 -define:DOTWEEN
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll"
 -r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
+-r:"Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -379,6 +381,12 @@
 "Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs"
 "Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs"
 "Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs"
+"Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs"
+"Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeAudio.cs"
+"Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeUnityExtended.cs"
+"Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs"
+"Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs"
+"Assets/Plugins/Demigiant/DOTweenPro/DOTweenTk2d.cs"
 -langversion:9.0
 
 /deterministic

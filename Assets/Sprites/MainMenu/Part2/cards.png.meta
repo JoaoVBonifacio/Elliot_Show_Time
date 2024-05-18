@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: 187e059343d179e469cd63c6c39ae7ad
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cards_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 932
+        width: 474
+        height: 672
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 288}
+        - {x: -10, y: 335}
+        - {x: -107, y: 319}
+        - {x: -99, y: 271}
+        - {x: -237, y: 246}
+        - {x: -139, y: -313}
+        - {x: 0, y: -289}
+        - {x: 8, y: -336}
+        - {x: 105, y: -319}
+        - {x: 97, y: -271}
+        - {x: 237, y: -246}
+        - {x: 139, y: 312}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14fcf7cec1deea49be2ff769655d6e4
+      internalID: -841777923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_1
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1010
+        width: 474
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -237, y: 246}
+        - {x: -139, y: -312}
+        - {x: 237, y: -246}
+        - {x: 139, y: 312}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27192f2c78a5f14aa37ecc47fb6f8fa
+      internalID: -1621755883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_2
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1045
+        width: 381
+        height: 566
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -190.5, y: 283}
+        - {x: -190.5, y: -283}
+        - {x: 190.5, y: -283}
+        - {x: 190.5, y: 283}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f57bf547e6c364d9d45642ed92543b
+      internalID: -1218982490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_3
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 996
+        width: 381
+        height: 664
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: 332}
+        - {x: -49.5, y: 283}
+        - {x: -190.5, y: 283}
+        - {x: -190.5, y: -283}
+        - {x: -49.5, y: -283}
+        - {x: -49.5, y: -332}
+        - {x: 48.5, y: -332}
+        - {x: 48.5, y: -283}
+        - {x: 190.5, y: -283}
+        - {x: 190.5, y: 283}
+        - {x: 48.5, y: 283}
+        - {x: 48.5, y: 332}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f4a27dc9046e546a75821512aaafdb
+      internalID: -90442871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 105
+        width: 474
+        height: 672
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74, y: 336}
+        - {x: -126, y: 336}
+        - {x: -237, y: 269}
+        - {x: -237, y: 180}
+        - {x: -156, y: -318}
+        - {x: -79, y: -336}
+        - {x: 72, y: -336}
+        - {x: 237, y: -270}
+        - {x: 237, y: -148}
+        - {x: 167, y: 333}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9906a64f2e7716c4ea058ef939695b2d
+      internalID: -1281965758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_5
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 149
+        width: 474
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 114, y: 312}
+        - {x: -237, y: 256}
+        - {x: -237, y: 198}
+        - {x: -145, y: -312}
+        - {x: -110, y: -312}
+        - {x: 237, y: -258}
+        - {x: 237, y: -183}
+        - {x: 144, y: 312}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c95f041a2b291340974b866911d3726
+      internalID: 828964307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards_6
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 220
+        width: 394
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107, y: 87}
+        - {x: -197, y: 26}
+        - {x: -197, y: -69}
+        - {x: -181, y: -87}
+        - {x: 36, y: -87}
+        - {x: 197, y: -25}
+        - {x: 197, y: 67}
+        - {x: 183, y: 87}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06394a124bee11545b71b8ca1263f7f1
+      internalID: 457715612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 91869204167fa11439b0c0538c3afbb9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cards_0: -841777923
+      cards_1: -1621755883
+      cards_2: -1218982490
+      cards_3: -90442871
+      cards_4: -1281965758
+      cards_5: 828964307
+      cards_6: 457715612
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
