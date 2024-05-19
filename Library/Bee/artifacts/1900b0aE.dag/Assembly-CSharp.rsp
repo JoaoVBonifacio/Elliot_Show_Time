@@ -376,8 +376,12 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/QuickOutline/Scripts/Outline.cs"
 "Assets/Scripts/ButtonAlphaHitTest.cs"
+"Assets/Scripts/ButtonHandlerTest.cs"
+"Assets/Scripts/QuitGame.cs"
 "Assets/Scripts/RaycastPaddingHelper.cs"
 "Assets/Scripts/ScaleAnimation.cs"
+"Assets/Scripts/SceneLoaderAsync.cs"
+"Assets/Scripts/ScriptTest.cs"
 -langversion:9.0
 
 /deterministic

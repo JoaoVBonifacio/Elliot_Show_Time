@@ -60,10 +60,14 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.24f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\QuitGame.cs" />
     <Compile Include="Assets\Scripts\ButtonAlphaHitTest.cs" />
+    <Compile Include="Assets\Scripts\ButtonHandlerTest.cs" />
     <Compile Include="Assets\Scripts\RaycastPaddingHelper.cs" />
     <Compile Include="Assets\Scripts\ScaleAnimation.cs" />
+    <Compile Include="Assets\Scripts\SceneLoaderAsync.cs" />
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
+    <Compile Include="Assets\Scripts\ScriptTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
