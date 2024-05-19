@@ -1,10 +1,17 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-firstpass.dll:
+    - DG.Tweening.DOTweenAnimation
     Assembly-CSharp.dll:
     - ButtonAlphaHitTest
+    - ButtonHandlerTest
+    - Dypsloom.RhythmTimeline.SceneManagement.SceneLoaderAsync
+    - QuitGame
     - ScaleAnimation
     DOTween.dll:
     - DG.Tweening.Core.DOTweenSettings
+    DOTweenPro.dll:
+    - DG.Tweening.DOTweenVisualManager
     Dypsloom.RhythmTimeline.dll:
     - Dypsloom.RhythmTimeline.Core.DspTime
     - Dypsloom.RhythmTimeline.Core.Input.RhythmStandardInput
@@ -139,8 +146,12 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Slider
   serializedClasses:
     DOTween:
@@ -216,6 +227,39 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForward
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForward
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForward
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForward
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForward
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForward
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Behaviour
+    methodName: set_enabled
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOComplete
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForwardById
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForwardById
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForwardById
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerButton
     methodName: OnAction
@@ -258,6 +302,48 @@ ScriptsOnlyBuild:
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForward
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForward
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForward
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForward
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForward
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForward
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Behaviour
+    methodName: set_enabled
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOComplete
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForwardById
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForwardById
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlayForwardById
+  - assembly: Assembly-CSharp-firstpass
+    fullTypeName: DG.Tweening.DOTweenAnimation
+    methodName: DOPlay
+  - assembly: Assembly-CSharp
+    fullTypeName: Dypsloom.RhythmTimeline.SceneManagement.SceneLoaderAsync
+    methodName: SetBuildIndex
+  - assembly: Assembly-CSharp
+    fullTypeName: Dypsloom.RhythmTimeline.SceneManagement.SceneLoaderAsync
+    methodName: LoadSceneAsync
   - assembly: UnityEngine.AnimationModule
     fullTypeName: UnityEngine.Animator
     methodName: Play
@@ -347,124 +433,203 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16858}
-    - Class: 114
-      Script: {instanceID: 16860}
-    - Class: 114
-      Script: {instanceID: 16862}
-    - Class: 114
-      Script: {instanceID: 16864}
-    - Class: 114
-      Script: {instanceID: 16866}
-    - Class: 114
-      Script: {instanceID: 16868}
-    - Class: 114
       Script: {instanceID: 16874}
     - Class: 114
-      Script: {instanceID: 16938}
+      Script: {instanceID: 16876}
     - Class: 114
-      Script: {instanceID: 17118}
+      Script: {instanceID: 16878}
     - Class: 114
-      Script: {instanceID: 17684}
+      Script: {instanceID: 16880}
     - Class: 114
-      Script: {instanceID: 17818}
+      Script: {instanceID: 16882}
     - Class: 114
-      Script: {instanceID: 17922}
+      Script: {instanceID: 16884}
     - Class: 114
-      Script: {instanceID: 18058}
+      Script: {instanceID: 16890}
     - Class: 114
-      Script: {instanceID: 18186}
+      Script: {instanceID: 16956}
     - Class: 114
-      Script: {instanceID: 18530}
+      Script: {instanceID: 17140}
     - Class: 114
-      Script: {instanceID: 18694}
+      Script: {instanceID: 17706}
     - Class: 114
-      Script: {instanceID: 18848}
+      Script: {instanceID: 17842}
     - Class: 114
-      Script: {instanceID: 19430}
+      Script: {instanceID: 17946}
     - Class: 114
-      Script: {instanceID: 19534}
+      Script: {instanceID: 18082}
     - Class: 114
-      Script: {instanceID: 19660}
+      Script: {instanceID: 18210}
     - Class: 114
-      Script: {instanceID: 19814}
+      Script: {instanceID: 18554}
     - Class: 114
-      Script: {instanceID: 19898}
+      Script: {instanceID: 18718}
     - Class: 114
-      Script: {instanceID: 19948}
+      Script: {instanceID: 18872}
     - Class: 114
-      Script: {instanceID: 20054}
+      Script: {instanceID: 19366}
     - Class: 114
-      Script: {instanceID: 20486}
+      Script: {instanceID: 19456}
     - Class: 114
-      Script: {instanceID: 20636}
+      Script: {instanceID: 19560}
     - Class: 114
-      Script: {instanceID: 20828}
+      Script: {instanceID: 19594}
     - Class: 114
-      Script: {instanceID: 21080}
+      Script: {instanceID: 19690}
     - Class: 114
-      Script: {instanceID: 21216}
+      Script: {instanceID: 19844}
     - Class: 114
-      Script: {instanceID: 22056}
+      Script: {instanceID: 19928}
     - Class: 114
-      Script: {instanceID: 22136}
+      Script: {instanceID: 19978}
     - Class: 114
-      Script: {instanceID: 22168}
+      Script: {instanceID: 20084}
     - Class: 114
-      Script: {instanceID: 22266}
+      Script: {instanceID: 20456}
     - Class: 114
-      Script: {instanceID: 22342}
+      Script: {instanceID: 20520}
     - Class: 114
-      Script: {instanceID: 22352}
+      Script: {instanceID: 20670}
     - Class: 114
-      Script: {instanceID: 22634}
+      Script: {instanceID: 20862}
     - Class: 114
-      Script: {instanceID: 22638}
+      Script: {instanceID: 21114}
     - Class: 114
-      Script: {instanceID: 22664}
+      Script: {instanceID: 21252}
     - Class: 114
-      Script: {instanceID: 23052}
+      Script: {instanceID: 21390}
     - Class: 114
-      Script: {instanceID: 23446}
+      Script: {instanceID: 22098}
     - Class: 114
-      Script: {instanceID: 23462}
+      Script: {instanceID: 22178}
     - Class: 114
-      Script: {instanceID: 23558}
+      Script: {instanceID: 22210}
     - Class: 114
-      Script: {instanceID: 23564}
+      Script: {instanceID: 22308}
     - Class: 114
-      Script: {instanceID: 23732}
+      Script: {instanceID: 22384}
     - Class: 114
-      Script: {instanceID: 23786}
+      Script: {instanceID: 22394}
     - Class: 114
-      Script: {instanceID: 23856}
+      Script: {instanceID: 22526}
     - Class: 114
-      Script: {instanceID: 23954}
+      Script: {instanceID: 22678}
     - Class: 114
-      Script: {instanceID: 23970}
+      Script: {instanceID: 22682}
     - Class: 114
-      Script: {instanceID: 24126}
+      Script: {instanceID: 22708}
     - Class: 114
-      Script: {instanceID: 24326}
+      Script: {instanceID: 23102}
     - Class: 114
-      Script: {instanceID: 24496}
+      Script: {instanceID: 23496}
     - Class: 114
-      Script: {instanceID: 24550}
+      Script: {instanceID: 23512}
     - Class: 114
-      Script: {instanceID: 24588}
+      Script: {instanceID: 23608}
     - Class: 114
-      Script: {instanceID: 25008}
+      Script: {instanceID: 23614}
     - Class: 114
-      Script: {instanceID: 25954}
+      Script: {instanceID: 23782}
     - Class: 114
-      Script: {instanceID: 26362}
+      Script: {instanceID: 23836}
     - Class: 114
-      Script: {instanceID: 30738}
+      Script: {instanceID: 23906}
     - Class: 114
-      Script: {instanceID: 47770}
+      Script: {instanceID: 24004}
+    - Class: 114
+      Script: {instanceID: 24020}
+    - Class: 114
+      Script: {instanceID: 24176}
+    - Class: 114
+      Script: {instanceID: 24264}
+    - Class: 114
+      Script: {instanceID: 24384}
+    - Class: 114
+      Script: {instanceID: 24556}
+    - Class: 114
+      Script: {instanceID: 24610}
+    - Class: 114
+      Script: {instanceID: 24648}
+    - Class: 114
+      Script: {instanceID: 25068}
+    - Class: 114
+      Script: {instanceID: 26006}
+    - Class: 114
+      Script: {instanceID: 26016}
+    - Class: 114
+      Script: {instanceID: 26424}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/SongSelect.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16874}
+    - Class: 114
+      Script: {instanceID: 16876}
+    - Class: 114
+      Script: {instanceID: 16878}
+    - Class: 114
+      Script: {instanceID: 16880}
+    - Class: 114
+      Script: {instanceID: 16884}
+    - Class: 114
+      Script: {instanceID: 16956}
+    - Class: 114
+      Script: {instanceID: 18554}
+    - Class: 114
+      Script: {instanceID: 18872}
+    - Class: 114
+      Script: {instanceID: 19594}
+    - Class: 114
+      Script: {instanceID: 20456}
+    - Class: 114
+      Script: {instanceID: 20520}
+    - Class: 114
+      Script: {instanceID: 22384}
+    - Class: 114
+      Script: {instanceID: 22526}
+    - Class: 114
+      Script: {instanceID: 23512}
+    - Class: 114
+      Script: {instanceID: 24004}
+    - Class: 114
+      Script: {instanceID: 24264}
+    - Class: 114
+      Script: {instanceID: 26006}
+    - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -510,89 +675,89 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16862}
+      Script: {instanceID: 16878}
     - Class: 114
-      Script: {instanceID: 16866}
+      Script: {instanceID: 16884}
     - Class: 114
-      Script: {instanceID: 16938}
+      Script: {instanceID: 16956}
     - Class: 114
-      Script: {instanceID: 17170}
+      Script: {instanceID: 17192}
     - Class: 114
-      Script: {instanceID: 17784}
+      Script: {instanceID: 17808}
     - Class: 114
-      Script: {instanceID: 17804}
+      Script: {instanceID: 17828}
     - Class: 114
-      Script: {instanceID: 18006}
+      Script: {instanceID: 18030}
     - Class: 114
-      Script: {instanceID: 18108}
+      Script: {instanceID: 18132}
     - Class: 114
-      Script: {instanceID: 18530}
+      Script: {instanceID: 18554}
     - Class: 114
-      Script: {instanceID: 18558}
+      Script: {instanceID: 18582}
     - Class: 114
-      Script: {instanceID: 18584}
+      Script: {instanceID: 18608}
     - Class: 114
-      Script: {instanceID: 18848}
+      Script: {instanceID: 18872}
     - Class: 114
-      Script: {instanceID: 19430}
+      Script: {instanceID: 19456}
     - Class: 114
-      Script: {instanceID: 20744}
+      Script: {instanceID: 20778}
     - Class: 114
-      Script: {instanceID: 21326}
+      Script: {instanceID: 21362}
     - Class: 114
-      Script: {instanceID: 21592}
+      Script: {instanceID: 21634}
     - Class: 114
-      Script: {instanceID: 21896}
+      Script: {instanceID: 21938}
     - Class: 114
-      Script: {instanceID: 22068}
+      Script: {instanceID: 22110}
     - Class: 114
-      Script: {instanceID: 22156}
-    - Class: 114
-      Script: {instanceID: 22170}
+      Script: {instanceID: 22198}
     - Class: 114
       Script: {instanceID: 22212}
     - Class: 114
-      Script: {instanceID: 22230}
+      Script: {instanceID: 22254}
     - Class: 114
-      Script: {instanceID: 22342}
+      Script: {instanceID: 22272}
     - Class: 114
-      Script: {instanceID: 22412}
+      Script: {instanceID: 22384}
     - Class: 114
-      Script: {instanceID: 22654}
+      Script: {instanceID: 22454}
     - Class: 114
-      Script: {instanceID: 22974}
+      Script: {instanceID: 22698}
     - Class: 114
-      Script: {instanceID: 23190}
+      Script: {instanceID: 23020}
     - Class: 114
-      Script: {instanceID: 23462}
+      Script: {instanceID: 23240}
     - Class: 114
-      Script: {instanceID: 23684}
+      Script: {instanceID: 23512}
     - Class: 114
-      Script: {instanceID: 23780}
+      Script: {instanceID: 23734}
     - Class: 114
-      Script: {instanceID: 23954}
+      Script: {instanceID: 23830}
     - Class: 114
-      Script: {instanceID: 24012}
+      Script: {instanceID: 24004}
     - Class: 114
-      Script: {instanceID: 24024}
+      Script: {instanceID: 24062}
     - Class: 114
-      Script: {instanceID: 24096}
+      Script: {instanceID: 24074}
     - Class: 114
-      Script: {instanceID: 24558}
+      Script: {instanceID: 24146}
     - Class: 114
-      Script: {instanceID: 24884}
+      Script: {instanceID: 24618}
     - Class: 114
-      Script: {instanceID: 25068}
+      Script: {instanceID: 24944}
     - Class: 114
-      Script: {instanceID: 25572}
+      Script: {instanceID: 25128}
     - Class: 114
-      Script: {instanceID: 25622}
+      Script: {instanceID: 25632}
     - Class: 114
-      Script: {instanceID: 25842}
+      Script: {instanceID: 25682}
     - Class: 114
-      Script: {instanceID: 26188}
+      Script: {instanceID: 25902}
     - Class: 114
-      Script: {instanceID: 26364}
+      Script: {instanceID: 26250}
+    - Class: 114
+      Script: {instanceID: 26426}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -648,6 +813,12 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
+      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
       Hash: b5007673bbbdb9d12597a1d8201370f5
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -658,12 +829,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Button
-  - hash:
-      serializedVersion: 2
-      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: ScrollRect
   - hash:
       serializedVersion: 2
       Hash: ed2c59b75f8f3cd8df4cd4387d965e71
@@ -682,6 +847,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: a8e3571aa4f5e95dad37cd05688ab442
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Outline
   - hash:
       serializedVersion: 2
       Hash: 8d7ab1303b1c14da5fdd62bf96ca6e89
@@ -766,6 +937,12 @@ ScriptsOnlyBuild:
     assemblyName: Dypsloom.RhythmTimeline
     namespaceName: Dypsloom.RhythmTimeline.UI
     className: EndScorePanel
+  - hash:
+      serializedVersion: 2
+      Hash: df12a8d247d425377cb668380bff6e5f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScriptTest
   - hash:
       serializedVersion: 2
       Hash: 6b2b20d5352b9f1294595326f54bd3c2
@@ -1050,6 +1227,12 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: 853055879c578de828305a5fe929a6bb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ButtonHandlerTest
+  - hash:
+      serializedVersion: 2
       Hash: d90629714fa6b0145fcaffc87f5c6559
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1090,6 +1273,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerEnumField
+  - hash:
+      serializedVersion: 2
+      Hash: bf6b10d9be571b3e28072274709014d3
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: DG.Tweening
+    className: DOTweenAnimation
   - hash:
       serializedVersion: 2
       Hash: 99431ab619f390cf9400bd06d3e1bdd3
@@ -1240,6 +1429,12 @@ ScriptsOnlyBuild:
     assemblyName: Dypsloom.RhythmTimeline
     namespaceName: Dypsloom.RhythmTimeline.Effects
     className: SongEventReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 4d7056ea83290801e8191e033e4d82a3
+    assemblyName: Assembly-CSharp
+    namespaceName: Dypsloom.RhythmTimeline.SceneManagement
+    className: SceneLoaderAsync
   - hash:
       serializedVersion: 2
       Hash: b747f5d40674055dd70e18552f1b0447
@@ -1396,6 +1591,12 @@ ScriptsOnlyBuild:
     assemblyName: Dypsloom.RhythmTimeline
     namespaceName: Dypsloom.RhythmTimeline.Core.Playables
     className: TempoTrack
+  - hash:
+      serializedVersion: 2
+      Hash: f12e40ee5097c26b55cf052cc914817a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: QuitGame
   - hash:
       serializedVersion: 2
       Hash: 05afd034bf7a074278a40ad9e97d8db4
@@ -1608,6 +1809,12 @@ ScriptsOnlyBuild:
     className: ScoreSettings
   - hash:
       serializedVersion: 2
+      Hash: 44ccfa28efb47302a016370c042371af
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ButtonAlphaHitTest
+  - hash:
+      serializedVersion: 2
       Hash: d5da7fdbc67480394e7d0cc5390495b9
     assemblyName: Dypsloom.RhythmTimeline
     namespaceName: Dypsloom.RhythmTimeline.UI
@@ -1662,6 +1869,12 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
+      Hash: 7fe88854164527c359b2f36829acf393
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RaycastPaddingHelper
+  - hash:
+      serializedVersion: 2
       Hash: 5c2a5af4658ede896d072a8a641d706e
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -1702,6 +1915,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
     className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e350eeed062350b382348e9dc7ffbfca
+    assemblyName: DemiLib.dll
+    namespaceName: DG.DemiLib.External
+    className: DeHierarchyComponent
   - hash:
       serializedVersion: 2
       Hash: 049f6aa84fe1cb5359c9338e96d0b07e
@@ -1858,6 +2077,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering
     className: DebugUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 9b38d1ee1b24f977bba5e3f33a8d3dad
+    assemblyName: DOTweenPro.dll
+    namespaceName: DG.Tweening
+    className: DOTweenPath
+  - hash:
+      serializedVersion: 2
+      Hash: 67b26c758da0bb5d1c595575f75d8afe
+    assemblyName: DOTweenPro.dll
+    namespaceName: DG.Tweening
+    className: DOTweenVisualManager
   - hash:
       serializedVersion: 2
       Hash: 8bbce9932f67ad8e7f4eefec87800f94
@@ -2124,6 +2355,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseOverMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 65724fd5c2bc13a43037026436c7abdb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScaleAnimation
+  - hash:
+      serializedVersion: 2
       Hash: 24af424a437762b0c98a2238a41b2825
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
@@ -2230,27 +2467,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 44ccfa28efb47302a016370c042371af
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ButtonAlphaHitTest
-  - hash:
-      serializedVersion: 2
-      Hash: 7fe88854164527c359b2f36829acf393
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: RaycastPaddingHelper
-  - hash:
-      serializedVersion: 2
-      Hash: 6193db7450f9047b48fcc95c5c6d3cd1
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ScaleAnimation
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
+  - Assets/Scenes/SongSelect.unity
   - Assets/Scenes/Start.unity
-  playerPath: C:/Users/Bonni/Rhythm Game/Elliot_Show_Time/Testes/AlphaTest v0.0.1/Elliot
+  playerPath: C:/Users/Bonni/Rhythm Game/Elliot_Show_Time/Testes/AlphaTest v0.0.3/Elliot
     Show Time.exe
