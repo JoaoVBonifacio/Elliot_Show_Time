@@ -68,6 +68,8 @@
     <Compile Include="Assets\Scripts\SceneLoaderAsync.cs" />
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\Scripts\ScriptTest.cs" />
+    <Compile Include="Assets\Scripts\ChangeRectSizeOnClick.cs" />
+    <Compile Include="Assets\Scripts\AsyncLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

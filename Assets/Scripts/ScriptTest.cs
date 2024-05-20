@@ -4,65 +4,62 @@ using UnityEngine;
 using DG.Tweening;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Unity.VisualScripting;
+using UnityEngine.EventSystems;
 
 public class ScriptTest : MonoBehaviour
 {
+    public Button[] buttons;
+    public Button confirmbutton;
+    public int selectedButtonIndex = -1;
+    public GameObject Panel;
 
-    public RectTransform[] buttons; // Assuma que estamos animando os RectTransforms dos botões
-    private int animationsCompleted = 0;
-    public Button[] test;
+    public float newWidth = 200f; // Novo valor para a largura
+    public float newHeight = 200f; // Novo valor para a altura
 
     void Start()
     {
-        //StartButtonAnimations();
-
-        /*if (test[1].)
+        // Verifica se há botões no array
+        if (buttons != null && buttons.Length > 0)
         {
-
-        }*/
-    }
-
-    /*public void StartButtonAnimations()
-    {
-        animationsCompleted = 0;
-
-        foreach (RectTransform button in buttons)
-        {
-            // Exemplo de animação: movendo o botão
-            button.DOAnchorPos(new Vector2(0, 0), 1f)
-                .OnComplete(OnButtonAnimationEnd);
-        }
-    }*/
-
-   public void OnButtonAnimationEnd()
-    {
-        animationsCompleted++;
-        if (animationsCompleted == buttons.Length)
-        {
-            Debug.Log("Todas as animações dos botões foram concluídas!");
-            // Aqui você pode chamar outras funções ou métodos que dependem do término das animações
-        }
-
-    }
-
-    // Método chamado quando um botão é clicado
-    public void OnButtonClick(RectTransform clickedButton)
-    {
-        // Verifica qual botão foi clicado
-        for (int i = 0; i < buttons.Length; i++)
-        {
-            if (buttons[i] == clickedButton)
+            for (int i = 0; i < buttons.Length; i++)
             {
-                //Debug.Log("Botão " + i + " foi clicado!");
-                // Execute a ação desejada com o botão clicado
-                HandleButtonClick(i);
-                break;
+                int index = i; // Necessário para evitar problemas de fechamento de loop
+                buttons[index].onClick.AddListener(() => OnButtonClicked(index));
             }
+        }
+
+        // Adiciona um listener ao botão de confirmação
+        confirmbutton.onClick.AddListener(OnConfirmButtonClicked);
+    }
+
+    public void OnButtonClicked(int index)
+    {
+        Debug.Log($"Botão {index} foi clicado!");
+        selectedButtonIndex = index;
+        HandleButtonClick(index);
+    }
+
+    // Método chamado quando o botão de confirmação é clicado
+    public void OnConfirmButtonClicked()
+    {
+        if (selectedButtonIndex >= 0 && selectedButtonIndex < buttons.Length)
+        {
+            Debug.Log($"Confirmação do botão {selectedButtonIndex}!");
+
+            if(selectedButtonIndex == 0)
+            {
+                Panel.GetComponent<DOTweenAnimation>().DOPlay();
+            }
+        }
+        else
+        {
+            Debug.Log("Nenhum botão foi selecionado para confirmação.");
         }
     }
 
     // Método auxiliar para lidar com o clique do botão
-    private void HandleButtonClick(int buttonIndex)
+    public void HandleButtonClick(int buttonIndex)
     {
         // Implemente aqui o que deve acontecer quando o botão for clicado
         switch (buttonIndex)
@@ -77,6 +74,16 @@ public class ScriptTest : MonoBehaviour
             default:
                 Debug.Log("Ação para o botão " + buttonIndex);
                 break;
+        }
+    }
+
+    public void OnPointerClick()
+    {
+        RectTransform rectTransform = GetComponent<RectTransform>();
+
+        if (rectTransform != null)
+        {
+            rectTransform.sizeDelta = new Vector2(newWidth, newHeight);
         }
     }
 }
