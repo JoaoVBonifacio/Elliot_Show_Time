@@ -379,6 +379,7 @@
 "Assets/Scripts/ButtonAlphaHitTest.cs"
 "Assets/Scripts/ButtonHandlerTest.cs"
 "Assets/Scripts/ChangeRectSizeOnClick.cs"
+"Assets/Scripts/HoverCardEffects.cs"
 "Assets/Scripts/QuitGame.cs"
 "Assets/Scripts/RaycastPaddingHelper.cs"
 "Assets/Scripts/ScaleAnimation.cs"

@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\ButtonAlphaHitTest.cs" />
     <Compile Include="Assets\Scripts\ButtonHandlerTest.cs" />
     <Compile Include="Assets\Scripts\RaycastPaddingHelper.cs" />
+    <Compile Include="Assets\Scripts\HoverCardEffects.cs" />
     <Compile Include="Assets\Scripts\ScaleAnimation.cs" />
     <Compile Include="Assets\Scripts\SceneLoaderAsync.cs" />
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
