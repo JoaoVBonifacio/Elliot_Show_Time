@@ -15,12 +15,12 @@ public class ButtonHandlerTest : MonoBehaviour
 
     private void Start()
     {
-        // Verifica se há botões no array
+        // Verifica se hï¿½ botï¿½es no array
         if (buttons != null && buttons.Length > 0)
         {
             for (int i = 0; i < buttons.Length; i++)
             {
-                int index = i; // Necessário para evitar problemas de fechamento de loop
+                int index = i; // Necessï¿½rio para evitar problemas de fechamento de loop
                 buttons[index].onClick.AddListener(() => OnButtonClicked(index));
             }
         }
@@ -41,15 +41,15 @@ public class ButtonHandlerTest : MonoBehaviour
 
     private void OnButtonClicked(int index)
     {
-        //Debug.Log($"Botão {index} foi clicado!");
-        // Adicione aqui a lógica específica para cada botão, se necessário
+        //Debug.Log($"Botï¿½o {index} foi clicado!");
+        // Adicione aqui a lï¿½gica especï¿½fica para cada botï¿½o, se necessï¿½rio
 
-        // Exemplo de animação com DoTween
+        // Exemplo de animaï¿½ï¿½o com DoTween
         //RectTransform rectTransform = buttons[index].GetComponent<RectTransform>();
 
         if (index == 0 || index == 1 || index == 2 || index == 3 || index == 4)
         {
-            // Fazer uma animação de scale para 1.2 e depois voltar para 1
+            // Fazer uma animaï¿½ï¿½o de scale para 1.2 e depois voltar para 1
             DorectTransform[0].DOMove(new Vector3(Move[0].x, Move[0].y, Move[0].z), speedanimation).OnComplete(() =>
             {
                 DorectTransform[1].DOMove(new Vector3(Move[1].x, Move[1].y, Move[1].z), speedanimation).OnComplete(() =>
@@ -71,23 +71,24 @@ public class ButtonHandlerTest : MonoBehaviour
 
     private void DoSomethingAfterAnimation(int index)
     {
-        // Lógica específica após a animação do botão
-        Debug.Log($"Executando ação pós-animação para o botão {index}");
-        // Adicione aqui a lógica específica que você deseja
+        // Lï¿½gica especï¿½fica apï¿½s a animaï¿½ï¿½o do botï¿½o
+        Debug.Log($"Executando aï¿½ï¿½o pï¿½s-animaï¿½ï¿½o para o botï¿½o {index}");
+        // Adicione aqui a lï¿½gica especï¿½fica que vocï¿½ deseja
         switch(index)
         {
             case 1:
-                Debug.Log("Botão " + index + " foi clicado!");
+                Debug.Log("Botï¿½o " + index + " foi clicado!");
                 SceneManager.LoadScene(1);
                 break;
             case 2:
-                Debug.Log("Botão " + index + " foi clicado!");
+                Debug.Log("Botï¿½o " + index + " foi clicado!");
                 break;
             case 3:
-                Debug.Log("Botão " + index + " foi clicado!");
+                Debug.Log("Botï¿½o " + index + " foi clicado!");
+                SceneManager.LoadScene(3);
                 break;
             case 4:
-                Debug.Log("Botão " + index + " foi clicado!");
+                Debug.Log("Botï¿½o " + index + " foi clicado!");
                 Application.Quit();
                 break;
         }
